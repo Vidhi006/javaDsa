@@ -1,7 +1,7 @@
 import java.util.*;
 public class nqueens {
     public static void main(String[]args) {
-        int n = 4;
+        int n = 9;
         char[][] board = new char[n][n];
         for(char[]a : board){
             Arrays.fill(a,'.');
